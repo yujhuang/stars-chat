@@ -2,7 +2,7 @@ var ChatApp = window.React.createClass({
     getInitialState: function() {
       return {
           messages: [],
-          socket: window.io('https://whispering-coast-75069.herokuapp.com:8080'),
+          socket: window.io(window.location.hostname),
           user: "Guest"
       }
     },
@@ -25,7 +25,7 @@ var ChatApp = window.React.createClass({
         let body = document.getElementById("message").value;
         var message = {
             body: body,
-            user: this.state.user || "guest"
+            user: this.state.user || "Guest"
         };
         document.getElementById("message").value = "";
         this.state.socket.emit("new-message", message);
