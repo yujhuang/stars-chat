@@ -19,8 +19,7 @@ io.on('connection', function(socket){
 
 });
 
-server.listen(process.env.PORT||8080, process.env.IP,function() {
-   
-   console.log("Chat server starts...");
+server.listen(process.env.PORT || 5000, process.env.IP || "0.0.0.0",function() {
+   console.log("we are connected");
 });
 
