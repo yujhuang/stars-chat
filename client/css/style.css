@@ -1,0 +1,90 @@
+body {
+    padding: 0px 15px 0px 15px;
+    background-image: url('/img/back.jpg');
+}
+
+h2 {
+    color:white;
+}
+#title {
+    float:none;
+    height:60px;
+}
+#head {
+   float:left;
+}
+#profile {
+    margin-top:25px;
+    color:white;
+    padding-right:15px;
+    font-weight:500;
+}
+#content-box {
+    width:100%;
+    border: 1px solid;
+    border-radius: 25px;
+    background:#DDDDDD;
+    height:25em;
+    overflow-y: scroll;
+}
+#content {
+    padding:25px;
+    font-size:30px;
+    color:black;
+
+
+}
+.list {
+    list-style-type: none;
+}
+#name {
+    font-family: Impact;
+}
+#text {
+    font-family: "Times New Roman";
+}
+
+#msg-form {
+    background-image: url('/img/back.jpg');
+    font-size:20px;
+    position:fixed;
+    height:140px;
+    bottom:5px;
+    width:100%;
+}
+li {
+    margin-top:5px;
+}
+#message {
+    float:left;
+    width:74%;
+    height:80px;
+    background: white;
+    color:black;
+    font-family: "Times New Roman";
+    resize:none;
+}
+#usr {
+    margin-top:10px;
+     float:left;
+}
+#user {
+    font-family: "Times New Roman";
+   
+}
+#usr a {
+
+      color: white;
+      font-weight: 300;
+
+}
+#usr a:hover {
+
+    text-decoration: none;
+    cursor:pointer;
+}
+#send {
+    margin-left:10px;
+    width:20%;
+    height:90px;
+}
