@@ -20,7 +20,7 @@ io.on('connection', function(socket){
 });
 
 server.listen(8080, process.env.IP,function() {
-   var addr = server.address();
-   console.log("Chat server listening at", addr.address + ":" + addr.port);
+   
+   console.log("Chat server starts...");
 });
 
