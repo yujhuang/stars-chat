@@ -1,7 +1,7 @@
 {
   "name": "stars-chat",
   "version": "0.0.0",
-  "description": "A chat example to showcase how to use `socket.io` with a static `express` server with `async` for control flow.",
+  "description": "A simple room chat",
   "main": "server.js",
   "repository": "",
   "author": "Yujun Huang",
